@@ -1,6 +1,7 @@
 #board {
     background-image: url("./images/flappybirdbg.png");
     background-repeat: no-repeat;
+    background-size: cover; 
 }
 
 body {

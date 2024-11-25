@@ -3,6 +3,7 @@
  background-image: url("/images/flappybirdbg.png");
  background-repeat: no-repeat;
 }
+
 body {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
@@ -18,7 +19,6 @@ body {
 
 canvas {
     border: 6px dashed black;
-    background-color: rgb(233, 197, 143);
     max-width: 100%; 
     height: auto; 
 }

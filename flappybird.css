@@ -20,6 +20,7 @@ body {
 canvas {
     background-image: url("./images/flappybirdbg.png");
     background-repeat: no-repeat;
+    background-color: #87cfeb00;
     border: 6px dashed black;
     max-width: 100%;
     height: auto;

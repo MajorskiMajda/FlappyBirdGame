@@ -1,0 +1,24 @@
+
+#board{
+ background-image: url("/images/flappybirdbg.png");
+ background-repeat: no-repeat;
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: #87CEEB;
+}
+
+canvas {
+    border: 6px dashed black;
+    background-color: rgb(233, 197, 143);
+    max-width: 100%; 
+    height: auto; 
+}

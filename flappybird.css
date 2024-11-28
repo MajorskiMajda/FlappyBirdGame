@@ -1,24 +1,27 @@
-
-#board{
- background-image: url("/images/flappybirdbg.png");
- background-repeat: no-repeat;
+#board {
+    background-image: url("./images/flappybirdbg.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
 }
+
 body {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     margin: 0;
     padding: 0;
-    overflow: hidden; 
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; 
+    height: 100vh;
     background-color: #87CEEB;
 }
 
 canvas {
+    background-image: url("./images/flappybirdbg.png");
+    background-repeat: no-repeat;
+    background-color: #87cfeb00;
     border: 6px dashed black;
-    background-color: rgb(233, 197, 143);
-    max-width: 100%; 
-    height: auto; 
+    max-width: 100%;
+    height: auto;
 }
